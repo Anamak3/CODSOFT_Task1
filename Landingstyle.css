@@ -1,0 +1,92 @@
+
+            *{padding:0;margin:0;box-sizing:border-box;}
+            header{
+                width: 100%;
+                height: 100vh;
+                background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(D:/MyDownloads/pexels-ali-kazal-10772254.jpg);
+                background-size:cover;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+            }
+            nav{
+                width:100%;
+                height:100px;
+                color:white;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .coname{
+                font-size: 2em;
+                letter-spacing: 3px;
+                color: darkgrey;
+            }
+            
+            .menu a{
+                text-decoration:none;
+                color:floralwhite ;
+                padding: 10px 30px;
+                position: relative;
+            }
+            .menu a:before{
+                content: '';
+                position:absolute;
+                top:0;
+                left:0;
+                width: 0%;
+                height:100%;
+                 border-bottom:2px solid burlywood;
+                 transition:0.3s linear;
+            }
+            .menu a:hover::before{
+                width: 80%;
+            }
+            
+             .book a{
+                text-decoration: none;
+                color:blanchedalmond;
+                font-size: x-large;
+                background-color:rgb(38, 57, 3);
+                font-family:'Times New Roman', Times, serif;
+        
+                border-radius: 8px;
+                transition: 0.3s;
+            }
+            .book a:hover{
+                background-color: transparent;
+                border-bottom:2px solid burlywood;
+            }
+            .mainP{
+                max-width: 750px;
+                position: absolute;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                color:cornsilk;
+                font-family:'Times New Roman', Times, serif;
+            }
+            .mainP span{
+                letter-spacing:6px;
+                font-size:large;
+            }
+            .mainP h1{
+                font-size:30px;
+                
+            }
+            .mainP a{
+                text-decoration: none;
+                background-color:black;
+                color:beige ;
+                padding:9px 18px;
+                letter-spacing: 3px;
+                border-radius: 9px;
+                transition: 0.3s;
+
+            }
+            .mainP a:hover{
+                background-color: transparent;
+                border-bottom:2px solid burlywood;
+            }
+
+    
